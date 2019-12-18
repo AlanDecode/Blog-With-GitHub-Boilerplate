@@ -45,7 +45,7 @@ nav = [
         "name": "归档",
         "url": "${site_prefix}archives/",
         "target": "_self"
-    }
+    },
     {
         "name": "关于",
         "url": "${site_prefix}about/",
