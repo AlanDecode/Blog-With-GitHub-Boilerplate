@@ -36,6 +36,14 @@
 
 ## 第三步：尝试修改一下网站设置
 
+>新 fork 的仓库可能需要手动打开 Actions。点击仓库顶部的 Actions 按钮：
+>
+>![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191219104540016.png)
+>
+>如果出现了以下提示，点击 "I understand my workflows, go ahead and run them".
+>
+>![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/enable-action.png)
+
 回到仓库首页，点击 conf.py 文件，然后点击编辑按钮：
 
 ![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218155128999.png)
