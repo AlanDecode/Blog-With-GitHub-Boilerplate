@@ -2,6 +2,8 @@
 
 这是博客文章[《完全用 GitHub 写博客》](https://blog.imalan.cn/archives/blog-with-github/)所提出方法的示例仓库。你可以将这个仓库 fork 到自己的账户下（点击右上角的 Fork 按钮），然后按照本文档余下的内容操作一遍，就知道该如何使用了。
 
+> Fork 之后暂时不要修改仓库名称，保持 Blog-With-GitHub-Boilerplate
+
 ## 第一步：为仓库开启 Pages 服务
 
 ![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218153736217.png)
@@ -52,7 +54,7 @@
 
 ![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218155835654.png)
 
-填写文件名以及内容。文件名任取，内容可以参考这样的：
+填写文件名以及内容。文件名可以起 `我的第一篇文章.md`，内容可以参考这样的：
 
 ```
 ---
@@ -105,6 +107,8 @@ enable_jsdelivr = {
 仓库自带的 about.md 与 Typography 都可改可删，全看你。
 
 仓库`src/static` 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 `site_logo` 为 `"${static_prefix}新的logo.png"` 即可。
+
+现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 `site_prefix` 设置为 `"/<新的仓库名>/"`。
 
 ## 第七步：在本地进行创作
 
