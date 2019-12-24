@@ -1,3 +1,4 @@
+@echo off
 ::Update Site
 
 git add .

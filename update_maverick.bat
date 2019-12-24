@@ -1,3 +1,4 @@
+@echo off
 ::Update Maverick and Commit Changes
 
 cd Maverick
