@@ -10,17 +10,17 @@ index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "Semidio/Blog-With-GitHub-Boilerplate@gh-pages"
+    "repo": "Semidio/Blog@gh-pages"
 }
 
 # 站点设置
-site_name = "XXX"
+site_name = "42"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "Semidio"
-email = "semidio7#gmail.com"
-author_homepage = "https://www.xxx.xx"
-description = "XXXXXX"
+email = "semidio7@gmail.com"
+author_homepage = "https://www.semidio.work"
+description = "1+1=2?"
 key_words = ['Maverick', 'Semidio', 'Galileo', 'blog']
 language = 'zh-CN'
 external_links = [
