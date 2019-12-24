@@ -2,12 +2,10 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 2019/12/24 20:22:00
 status: publish
-author: AlanDecode
+author: Semidio
 categories: 
-  - Maverick
-  - Dev
 tags: 
   - theme
 ---
@@ -17,6 +15,6 @@ tags:
 
 ## Contact
 
-Email: hi#imalan.cn (replace # with @)
+Email: semidio7@gmail.com (replace # with @)
 
-Telegram：[AlanDecode](https://t.me/alandecode)
+Telegram：[Semidio](https://t.me/semidio)
