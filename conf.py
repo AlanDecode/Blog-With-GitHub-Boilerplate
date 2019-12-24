@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/"
+site_prefix = "https://semidio.work/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -19,7 +19,7 @@ site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "Semidio"
 email = "semidio7@gmail.com"
-author_homepage = "https://www.semidio.work"
+author_homepage = "https://semidio.work"
 description = "1+1=2?"
 key_words = ['Maverick', 'Semidio', 'Galileo', 'blog']
 language = 'zh-CN'
