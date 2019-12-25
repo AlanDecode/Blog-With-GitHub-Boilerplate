@@ -116,7 +116,9 @@ enable_jsdelivr = {
 
 仓库`src/static` 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 `site_logo` 为 `"${static_prefix}新的logo.png"` 即可。
 
-现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 `site_prefix` 设置为 `"/<新的仓库名>/"`。如果要将仓库名修改为 `<用户名>.github.io` 的形式，那么 `site_prefix` 设置为 `"/"` 即可。
+现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 `site_prefix` 设置为 `"/<新的仓库名>/"`。
+
+如果要将仓库名修改为 `<用户名>.github.io` 的形式，请看 [About-User-Pages](https://github.com/AlanDecode/site-Blog/blob/source/About-User-Pages.md)。
 
 ## 第七步：在本地进行创作
 
