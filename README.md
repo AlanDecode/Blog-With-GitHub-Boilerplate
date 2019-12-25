@@ -6,11 +6,11 @@
 
 ## 第一步：为仓库开启 Pages 服务
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218153736217.png)
+![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218153736217.png)
 
 进入 Fork 的仓库，点击右上角这个 Settings 按钮，找到 GitHub Pages 相关设置：
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218153908353.png)
+![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218153908353.png)
 
 设置发布来源为 gh-pages branch，稍等片刻你就可以通过类似 `https://<用户名>.github.io/Blog-With-GitHub-Boilerplate` 这样的链接访问你的网站了。
 
@@ -18,19 +18,15 @@
 
 为了让 GitHub Actions 可以自动更新你的网站，需要添加一个 Token。点击[这个网址](https://github.com/settings/tokens)，点击右上角的 Generate new token，起个名字并勾选 repo 复选框：
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218154358592.png)
-
-
+![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218154358592.png)
 
 点击页脚的 Generate Token，新的 token 会显示出来，把它复制下来，保存好。关了这个页面你就永远也看不到它了。
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218154525529.png)
+![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218154525529.png)
 
 回到仓库中，进入 Setting，坐标找到 Secrets 选项卡，新建一个名叫 PERSONAL_TOKEN 的 secret：
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218154724925.png)
-
-
+![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218154724925.png)
 
 **💡 从这里开始我们会对仓库的文件做一些修改，如果你电脑上有安装 Git，可以把仓库 clone 到本地，完成修改后提交并 push 回去；如果没有安装，可以直接在浏览器中编辑文件。**
 
@@ -38,17 +34,15 @@
 
 >新 fork 的仓库可能需要手动打开 Actions。点击仓库顶部的 Actions 按钮：
 >
->![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191219104540016.png)
+>![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191219104540016.png)
 >
 >如果出现了以下提示，点击 "I understand my workflows, go ahead and run them".
 >
->![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/enable-action.png)
+>![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/enable-action.png)
 
 回到仓库首页，点击 conf.py 文件，然后点击编辑按钮：
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218155128999.png)
-
-
+![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218155128999.png)
 
 1. 为你的网站起个名字，填写到 `site_name` 这里
 2. 修改 `author`，`email`，`description` 等选项为你的内容
@@ -60,7 +54,7 @@
 
 点击进入仓库的 src 文件夹，并点击 Create new file
 
-![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218155835654.png)
+![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218155835654.png)
 
 填写文件名以及内容。文件名可以起 `我的第一篇文章.md`，内容可以参考这样的：
 
@@ -116,7 +110,7 @@ enable_jsdelivr = {
 
 仓库`src/static` 文件夹中有一个 logo.png，这是示例 logo。你可以在这个文件夹中上传新的 logo 图片，最好是方形的图片，然后在 conf.py 中修改 `site_logo` 为 `"${static_prefix}新的logo.png"` 即可。
 
-现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 `site_prefix` 设置为 `"/<新的仓库名>/"`。
+现在可以把仓库名称改成你想要的名字了。改了之后，记得将 conf.py 中的 `site_prefix` 设置为 `"/<新的仓库名>/"`，并且对应修改 `enable_jsdelivr ` 选项的内容。
 
 如果要将仓库名修改为 `<用户名>.github.io` 的形式，请看 [About-User-Pages](https://github.com/AlanDecode/site-Blog/blob/source/About-User-Pages.md)。
 
@@ -145,7 +139,7 @@ enable_jsdelivr = {
 >
 > 之后到仓库右上角的 Clone or download 那里，复制仓库链接（建议使用 HTTPS）：
 >
-> ![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/master/assets/image-20191218201359204.png)
+> ![](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate/raw/source/assets/image-20191218201359204.png)
 >
 > 在命令行中输入：
 >

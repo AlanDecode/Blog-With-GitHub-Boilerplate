@@ -5,3 +5,5 @@
 
 2. 修改 .github/workflows/ci.yml 第 40 行为 `PUBLISH_BRANCH: master`
 
+4. 如果启用 jsDelivr，那么 conf.py 中 enable_jsdelivr -> repo 选项要对应设置为 `<用户名>/<仓库名>@master`
+
