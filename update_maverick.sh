@@ -1,7 +1,8 @@
 #！/bin/sh
 
+git submodule update --init --recursive
 cd Maverick
-git pull --rebase
+git pull origin master --rebase
 
 cd ..
 git add .
