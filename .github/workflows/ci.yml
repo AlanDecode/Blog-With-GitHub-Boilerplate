@@ -40,6 +40,8 @@ jobs:
         # 保存图片缓存
         cd ..
         cp ./Maverick/cached_imgs/sizeinfo.json ./cache
+        date > ./cache/info
+        md5sum ./cache/sizeinfo.json >> ./cache/info
 
     - name: Deploy to GitHub Pages
       uses: docker://peaceiris/gh-pages:v2
@@ -55,6 +57,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add ./cache/sizeinfo.json
+        git add ./cache/info
         git commit -m "Update sizeinfo cache"
     - name: Push sizeinfo cache changes
       uses: ad-m/github-push-action@master
