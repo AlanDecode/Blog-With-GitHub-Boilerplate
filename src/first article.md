@@ -4,7 +4,7 @@ title: 我的第一篇文章
 slug: my-first-awesome-post
 date: 2019-12-17 20:34
 status: publish
-author: <填写你的名字>
+author: <填写你的retretre名字>
 categories: 
   - 默认分类
 tags: 
