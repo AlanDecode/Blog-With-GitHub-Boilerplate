@@ -3,14 +3,14 @@
 """
 
 # For Maverick
-site_prefix = "/Blog-With-GitHub-Boilerplate/"
+site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "mrniueight/Blog-With-GitHub-Boilerplate@gh-pages"
+    "repo": "mrniueight/Blog-With-GitHub-Boilerplate@master"
 }
 
 # 站点设置
