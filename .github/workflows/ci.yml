@@ -28,20 +28,25 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r prod_req.txt
 
+    # Get build cache
+    - uses: actions/checkout@v2
+      with:
+        ref: 'cache'
+        path: './build_cache'
+
     - name: Build site
       run: |
         # 复用图片解析缓存
         mkdir ./Maverick/cached_imgs
-        cp ./cache/sizeinfo.json ./Maverick/cached_imgs
+        cp ./build_cache/sizeinfo.json ./Maverick/cached_imgs
+        rm -rf ./build_cache/.git
 
         cd ./Maverick
         python ./build.py -c "../conf.py"
 
         # 保存图片缓存
         cd ..
-        cp ./Maverick/cached_imgs/sizeinfo.json ./cache
-        date > ./cache/info
-        md5sum ./cache/sizeinfo.json >> ./cache/info
+        cp ./Maverick/cached_imgs/sizeinfo.json ./build_cache
 
     - name: Deploy to GitHub Pages
       uses: docker://peaceiris/gh-pages:v2
@@ -52,15 +57,11 @@ jobs:
       with:
         emptyCommits: false
 
-    - name: Commit sizeinfo cache changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add ./cache/sizeinfo.json
-        git add ./cache/info
-        git commit -m "Update sizeinfo cache"
-    - name: Push sizeinfo cache changes
-      uses: ad-m/github-push-action@master
+    - name: Save build cache
+      uses: docker://peaceiris/gh-pages:v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: cache
+        PUBLISH_DIR: ./build_cache
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: source
+        emptyCommits: false
