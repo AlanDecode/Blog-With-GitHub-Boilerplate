@@ -13,6 +13,7 @@
     <link rel="alternate" type="application/atom+xml" title="我的个人博客 &raquo; ATOM 1.0" href="/Blog-With-GitHub-Boilerplate/feed/atom/index.xml" />
     <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/galileo-e255dd166a.css">
     <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/ExSearch/ExSearch-182e5a8868.css">
+    <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/katex.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700&display=swap">
     <script>
@@ -130,15 +131,15 @@
 <p>$$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$</p>
 <h2>Figures</h2>
 <h3>Single figure</h3>
-<p><figure style="flex: 92.88888888888889" ><img src="/Blog-With-GitHub-Boilerplate/archives/assets/e0affbc80ccb2d596c87b520e37e7071.jpg" alt="Princess Mononoke" /><figcaption>Princess Mononoke</figcaption></figure></p>
+<p><figure style="flex: 92.88888888888889" ><img class="lazyload" width="836" height="450" data-src="/Blog-With-GitHub-Boilerplate/archives/assets/e0affbc80ccb2d596c87b520e37e7071.jpg" alt="Princess Mononoke" /><figcaption>Princess Mononoke</figcaption></figure></p>
 <h3>Photoset</h3>
 <div class="photos">
-<figure style="flex: 75.0" ><img src="/Blog-With-GitHub-Boilerplate/archives/assets/4956a144888cdbbb6c2df1d1d15384b0.jpeg" alt="" /></figure>
-<figure style="flex: 50.03720238095238" ><img src="/Blog-With-GitHub-Boilerplate/archives/assets/4c66f0da616b08325b3aaa4c8b3f68e1.jpg" alt="" /></figure>
-<figure style="flex: 75.0" ><img src="/Blog-With-GitHub-Boilerplate/archives/assets/8b4d2334469ffa39b59e6fdb37c8c601.jpeg" alt="" /></figure></div><div class="photos">
-<figure style="flex: 75.0" ><img src="/Blog-With-GitHub-Boilerplate/archives/assets/0f5023d542a33e7c9d270f3cd6a99562.jpeg" alt="" /></figure>
-<figure style="flex: 75.0" ><img src="/Blog-With-GitHub-Boilerplate/archives/assets/20ec69d2a0276336f95e11f42866d17f.jpeg" alt="" /></figure>
-<figure style="flex: 75.0" ><img src="/Blog-With-GitHub-Boilerplate/archives/assets/2b8af25285e5a193729a350593113bad.jpeg" alt="" /></figure></div><h2>Table</h2>
+<figure style="flex: 75.0" ><img class="lazyload" width="4032" height="2688" data-src="/Blog-With-GitHub-Boilerplate/archives/assets/4956a144888cdbbb6c2df1d1d15384b0.jpeg" alt="" /></figure>
+<figure style="flex: 50.03720238095238" ><img class="lazyload" width="2690" height="2688" data-src="/Blog-With-GitHub-Boilerplate/archives/assets/4c66f0da616b08325b3aaa4c8b3f68e1.jpg" alt="" /></figure>
+<figure style="flex: 75.0" ><img class="lazyload" width="4032" height="2688" data-src="/Blog-With-GitHub-Boilerplate/archives/assets/8b4d2334469ffa39b59e6fdb37c8c601.jpeg" alt="" /></figure></div><div class="photos">
+<figure style="flex: 75.0" ><img class="lazyload" width="4032" height="2688" data-src="/Blog-With-GitHub-Boilerplate/archives/assets/0f5023d542a33e7c9d270f3cd6a99562.jpeg" alt="" /></figure>
+<figure style="flex: 75.0" ><img class="lazyload" width="4032" height="2688" data-src="/Blog-With-GitHub-Boilerplate/archives/assets/20ec69d2a0276336f95e11f42866d17f.jpeg" alt="" /></figure>
+<figure style="flex: 75.0" ><img class="lazyload" width="4032" height="2688" data-src="/Blog-With-GitHub-Boilerplate/archives/assets/2b8af25285e5a193729a350593113bad.jpeg" alt="" /></figure></div><h2>Table</h2>
 <table>
 <thead><tr>
 <th>header</th>
@@ -223,11 +224,9 @@
         </div>
     </div>
 
-    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/jquery.min.js"></script>
-    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/ExSearch-493cb9cd89.js"></script>
-    
+    <script defer src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js" onload="lazyload();"></script>
+
     <!--katex-->
-    <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/katex.min.css">
     <script defer src="/Blog-With-GitHub-Boilerplate/assets/katex.min.js"></script>
     <script>
     mathOpts = {
@@ -240,6 +239,9 @@
     };
     </script>
     <script defer src="/Blog-With-GitHub-Boilerplate/assets/auto-render.min.js" onload="renderMathInElement(document.body, mathOpts);"></script>
+
+    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/jquery.min.js"></script>
+    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/ExSearch-493cb9cd89.js"></script>
 
     
     </body>

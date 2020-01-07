@@ -13,6 +13,7 @@
     <link rel="alternate" type="application/atom+xml" title="我的个人博客 &raquo; ATOM 1.0" href="/Blog-With-GitHub-Boilerplate/feed/atom/index.xml" />
     <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/galileo-e255dd166a.css">
     <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/ExSearch/ExSearch-182e5a8868.css">
+    <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/katex.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700&display=swap">
     <script>
@@ -136,11 +137,9 @@
         </div>
     </div>
 
-    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/jquery.min.js"></script>
-    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/ExSearch-493cb9cd89.js"></script>
-    
+    <script defer src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js" onload="lazyload();"></script>
+
     <!--katex-->
-    <link rel="stylesheet" href="/Blog-With-GitHub-Boilerplate/assets/katex.min.css">
     <script defer src="/Blog-With-GitHub-Boilerplate/assets/katex.min.js"></script>
     <script>
     mathOpts = {
@@ -153,6 +152,9 @@
     };
     </script>
     <script defer src="/Blog-With-GitHub-Boilerplate/assets/auto-render.min.js" onload="renderMathInElement(document.body, mathOpts);"></script>
+
+    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/jquery.min.js"></script>
+    <script src="/Blog-With-GitHub-Boilerplate/assets/ExSearch/ExSearch-493cb9cd89.js"></script>
 
     
     </body>
