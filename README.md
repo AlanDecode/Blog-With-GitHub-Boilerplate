@@ -1,5 +1,7 @@
 # Blog-With-GitHub-Boilerplate
 
+> 💡 注意：这不是所谓使用 Maverick 的「标准方法」，只不过是利用 Maverick 与 GitHub Actions 写博客一个流程而已。不要觉得非得这样不可。Maverick 的用法见 [README.md](https://github.com/AlanDecode/Maverick)。
+
 这是博客文章[《完全用 GitHub 写博客》](https://blog.imalan.cn/archives/blog-with-github/)所提出方法的示例仓库。你可以将这个仓库 fork 到自己的账户下（点击右上角的 Fork 按钮），然后按照本文档余下的内容操作一遍，就知道该如何使用了。
 
 > Fork 之后暂时不要修改仓库名称，保持 Blog-With-GitHub-Boilerplate
