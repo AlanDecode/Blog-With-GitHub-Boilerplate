@@ -1,3 +1,7 @@
 [submodule "Maverick"]
 	path = Maverick
 	url = https://github.com/AlanDecode/Maverick.git
+[submodule "Galileo"]
+	path = Galileo
+	url = https://github.com/AlanDecode/Maverick-Theme-Galileo.git
+	branch = latest

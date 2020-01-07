@@ -118,14 +118,25 @@ enable_jsdelivr = {
 
 ## 第七步：在本地进行创作
 
-你可以把仓库 clone 到电脑上，修改后再将修改 push 回去。为了让这个过程方便一些，仓库中自带了 `update_site.bat` 、`update_maverick.bat` （Windows用），以及 `update_site.sh`、`update_maverick.sh` （Linux、macOS用）几个文件，看文件名应该就知道是干什么的。Windows 用户只需要双击对应的 bat 文件就可以执行，macOS 或者 Linux 用户可能首先需要在终端中给文件执行权限：
+你可以把仓库 clone 到电脑上，修改后再将修改 push 回去。如果你的电脑上有安装 `make`，则这个过程可以方便一些：
 
- ```bash
- chmod +x ./update_site.sh
- chmod +x ./update_maverick.sh
- ```
+升级 Maverick：
 
-然后就能直接在终端运行这两个 .sh 文件了。或者使用终端直接打开它们。
+```bash
+make mvrk
+```
+
+升级主题：
+
+```bash
+make theme
+```
+
+修改站点：
+
+```bash
+make msg="Add some change" site
+```
 
 > **关于如何在电脑上使用 Git**
 >
