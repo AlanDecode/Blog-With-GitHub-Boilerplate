@@ -9,10 +9,9 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 template = {
-    "name": "Prism",
-    "type": "git",
-    "url": "https://github.com/Reedo0910/Maverick-Theme-Prism.git",
-    "branch": "deploy"
+    "name": "Galileo",
+    "type": "local",
+    "path": "../Galileo"
 }
 enable_jsdelivr = {
     "enabled": True,
