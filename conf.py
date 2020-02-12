@@ -28,13 +28,7 @@ author_homepage = "https://www.arley.cn"
 description = "Living without an aim is like sailing without a compass。<br>生活没有目标，犹如航海没有罗盘。"
 key_words = ['Maverick', 'arley', 'Galileo', 'blog']
 language = 'zh-CN'
-external_links = [
-    {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
-    }
-]
+
 nav = [
     {
         "name": "首页",
