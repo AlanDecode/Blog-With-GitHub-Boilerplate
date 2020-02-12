@@ -46,6 +46,11 @@ nav = [
         "target": "_self"
     },
     {
+        "name": "标签",
+        "url": "${site_prefix}tag/",
+        "target": "_self"
+    },
+    {
         "name": "关于",
         "url": "${site_prefix}about/",
         "target": "_self"
