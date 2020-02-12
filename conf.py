@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/"
+site_prefix = "/arley.cn/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -15,7 +15,7 @@ template = {
 }
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "arley.github.io@gh-pages"
+    "repo": "Arley517693777/arley.cn@gh-pages"
 }
 
 # 站点设置
