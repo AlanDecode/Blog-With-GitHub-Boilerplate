@@ -9,9 +9,10 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 template = {
-    "name": "Galileo",
-    "type": "local",
-    "path": "../Galileo"
+    "name": "Kepler",
+    "type": "git",
+    "url": "https://github.com/AlanDecode/Maverick-Theme-Kepler.git",
+    "branch": "latest"
 }
 enable_jsdelivr = {
     "enabled": True,
