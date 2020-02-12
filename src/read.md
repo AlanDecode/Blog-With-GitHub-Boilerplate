@@ -12,5 +12,4 @@ tags:
   - theme
 ---
 这是读书页面测试
-<embed src="//music.163.com/style/swf/widget.swf?sid=2788529&type=2&auto=1&width=510&height=32" width="510" height="52"  allowNetworking="all"></embed>
-<embed src="//music.163.com/style/swf/widget.swf?sid=2974012353&type=2&auto=1&width=510&height=32" width="510" height="52"  allowNetworking="all"></embed>
+<embed src="//music.163.com/style/swf/widget.swf?sid=2974012353&type=0&auto=1&width=550&height=430" width="550" height="450"  allowNetworking="all"></embed>
