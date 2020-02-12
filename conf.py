@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/Blog-With-GitHub-Boilerplate/"
+site_prefix = "/arley.cn/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -15,8 +15,8 @@ template = {
     "branch": "deploy"
 }
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": True,
+    "repo": "Arley517693777/arley.cn@gh-pages"
 }
 
 # 站点设置
