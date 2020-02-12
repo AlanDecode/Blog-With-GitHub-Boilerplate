@@ -42,6 +42,11 @@ nav = [
         "target": "_self"
     },
     {
+        "name": "音乐",
+        "url": "${site_prefix}music/",
+        "target": "_self"
+    },
+    {
         "name": "归档",
         "url": "${site_prefix}archives/",
         "target": "_self"
