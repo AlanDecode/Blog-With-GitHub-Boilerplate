@@ -4,7 +4,7 @@ title: 关于
 slug: about
 date: 2017/06/28 17:26:00
 status: publish
-author: AlanDecode
+author: Arley
 categories: 
   - Maverick
   - Dev
@@ -12,11 +12,14 @@ tags:
   - theme
 ---
 
-这里是我的个人博客，通过 GitHub 管理与构建。
+这里是我的个人博客，是一个学习实用类小站，记录所得，分享所获,通过 GitHub 管理与构建。
 
 
 ## Contact
 
-Email: hi#imalan.cn (replace # with @)
+QQ:1027255160
+微信公众号：Ar­ley_Log
+邮箱 ：ar­ley@ar­ley.cn
 
-Telegram：[AlanDecode](https://t.me/alandecode)
+## 关于版权
+本站除注明原创外，其他内容均来源于网络收集，如有侵权，请告知站长，将第一时间删除侵权内容！
