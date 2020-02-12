@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/arley.cn/"
+site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
