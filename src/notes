@@ -1,0 +1,351 @@
+---
+layout: page
+title: 笔记
+slug: notes
+date: 2020/02/12 11:26:00
+status: publish
+author: Arley
+categories: 
+  - Maverick
+  - Dev
+tags: 
+  - theme
+---
+
+## Python自学计划
+### Python简介
+Python 是著名的 “龟叔” Guido van Rossum（创始人为荷兰人吉多・范罗苏姆）1989 年圣诞节期间，在阿姆斯特丹，Guido 为了打发圣诞节的无趣，决心开发一个新的脚本解释程序，作为 ABC 语言的一种继承。
+自从 20 世纪 90 年代初 Python 语言诞生至今，它已被逐渐广泛应用于系统管理任务的处理和 Web 编程。之所以选中 Python（大蟒蛇的意思）作为该编程语言的名字，是取自英国 20 世纪 70 年代首播的电视喜剧《蒙提。派森的飞行马戏团》（Monty Python's Fly­ing Cir­cus）。
+Python 是一种跨平台的计算机程序设计、面向对象、解释型脚本语言，最初被设计用于编写自动化脚本 (shell)。目前可以应用于以下领域：
+
+*Web 和 Internet开发
+*科学计算和统计
+*人工智能
+*教育
+*桌面界面开发
+*软件开发
+*后端开发
+> 编程：
+> 面向过程：
+    * 以指令为中心，由指令处理数据
+    * 如何组织代码解决问题
+> 面向对象：
+    * 以数据为中心，所有的处理代码都围绕数据展开
+    * 如何设计数据结构组织数据，并提供对此类数据所允许处理操作
+
+### 安装Python
+安装 Python 3.7
+目前，Python 有两个版本，一个是 2.x 版，一个是 3.x 版，这两个版本是不兼容的。
+当前流行于 3.x 版，由于使用 win­dows 比较多，So~
+在 Win­dows 上安装 Python, 我所使用的是 win10 64 位，在官网下载适用于 win­dows 64 位安装程式，资源教程链接请点我
+运行 EXE 安装包，勾上 Add Python 3.7 to PATH，然后点 “Install Now” 完成安装。
+
+### 运行Python
+安装成功后，打开命令提示符窗口（CMD），敲入 python 后，出现以下文字：
+
+Microsoft Windows [版本 10.0.18362.356]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+C:\Windows\system32>python
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+出现类似上面的画面，就说明 Python 安装成功！
+提示符 >>> 表示在 Python 交互式环境中，可以输入任何 Python 代码，回车后会立刻得到执行结果。
+
+第一个Python程序
+使用文本编辑器
+输入和输出
+文本编辑器
+目前使用以下两款文本编辑器：
+
+一个是 Sub­lime Text 免费，有弹窗
+一个是 Notepad++ 免费
+资源直达
+
+输入和输出
+
+>>> print("hello, world")
+
+Python基础
+数据类型和变量
+字符串和编码
+使用list和tuple
+条件判断
+循环
+使用dict和set
+数据类型
+
+整数：1.2.3.4.
+浮点数：浮点数也就是小数
+字符串：字符串是以单引号'或双引号"括起来的任意文本，比如'abc'，"xyz"
+如果字符串内部既包含'又包含"，用转义字符来标识，比如：
+'I'm "OK"!'
+表示的字符串内容是：
+I'm "OK"!
+n表示换行，t表示制表符
+r'' 表示 '' 内部的字符串默认不转义
+
+>>> print('\\\t\\')
+\       \
+>>> print(r'\\\t\\')
+\\\t\\
+用 ''' 内容 ''' 的格式表示多行内容
+
+>>> print('''line1
+... line2
+... line3''')
+line1
+line2
+line3
+一个布尔值只有 True、False 两种值，布尔值可以用 and、or 和 not 运算。布尔值经常用在条件判断中
+
+空值
+空值是 Python 里一个特殊的值，用 None 表示。None 不能理解为 0，0 是有意义的，None 是一个特殊的空值。
+
+变量
+变量在程序中用一个变量名表示，变量名必须是大小写英文、数字和_的组合，不能用数字开头
+
+a = 1
+变量 a 是一个整数。
+
+t_007 = 'T007'
+变量 t_007 是一个字符串。
+
+Answer = True
+变量 An­swer 是一个布尔值 True。
+
+等号 = 是赋值语句，可以把任意数据类型赋值给变量，同一个变量可以反复赋值，而且可以是不同类型的变量。
+变量本身类型不固定的语言称之为动态语言，与之对应的是静态语言。静态语言在定义变量时必须指定变量类型
+赋值语句的等号不等同于数学的等号
+
+常量
+常量就是不能变的变量
+除法
+在 Python 中，有两种除法，
+一种除法是 /：/ 除法计算结果是浮点数（包括整数）
+一种除法是 //，称为地板除，两个整数的除法仍然是整数：
+余数运算用 %
+
+>>> 10 % 3
+1
+字符串
+在最新的 Python 3 版本中，字符串是以 Uni­code 编码，支持多语言
+
+>>> print('你好世界HelloWorld')
+你好世界HelloWorld
+格式化
+在 Python 中格式化方式和 C 语言是一致的，用 % 实现，
+
+>>> 'Hello, %s' % 'world'
+'Hello, world'
+>>> '你好, %s到账 $%d.' % ('支付宝', 1000000)
+'你好, 支付宝到账 $1000000.'
+在字符串内部，% s 表示用字符串替换，% d 表示用整数替换，有几个 %? 占位符，后面就跟几个变量或者值，如果只有一个 %?，括号可以省略。
+常见的占位符有：
+
+占位符	替换内容
+%d	整数
+%f	浮点数
+%s	字符串
+%x	十六进制整数
+格式化整数和浮点数可以指定是否补 0 和整数与小数的位数：
+
+>>>print('%2d-%02d' % (3, 1))
+3-01
+>>>print('%.2f' % 3.1415926)
+3.14
+list
+Python 内置的一种数据类型是列表：list，一种有序的集合，可以随时添加和删除其中的元素。
+
+>>>a = ['一', '二', '三']
+>>>a
+['一', '二', '三']
+用索引来访问 list 中每一个位置的元素，索引是从 0 开始的：
+
+>>>a[1]
+'二'
+要取最后一个元素，除了计算索引位置外，还可以用 - 1 做索引
+
+>>>a[-1]
+'三'
+tuple
+另一种有序列表叫元组：tu­ple，和 list 非常类似，tu­ple 值不能修改
+定义一个空的 tu­ple：
+t = ()
+定义一个只有 1 个元素的 tu­ple：
+t = (1,)
+
+list 和 tu­ple 是 Python 内置的有序集合，一个可变，一个不可变
+
+条件判断
+根据 Python 的缩进规则，如果 if 语句判断是 True，就把缩进的两行 print 语句执行了，否则，什么也不做。
+if...else:
+如果 if 等于 False，执行 else 代码，
+
+a = 5
+if a >= 1:
+    print('大于', a)
+else:
+    print('小于', a)
+elif 是 else if 的缩写，可以有多个 elif
+
+if <条件判断1>:
+    <执行1>
+elif <条件判断2>:
+    <执行2>
+elif <条件判断3>:
+    <执行3>
+else:
+    <执行4>
+第一个交互，in­put (),in­put () 返回的数据类型是 str
+
+s = input('birth: ')
+birth = int(s)
+if birth < 2000:
+    print('00前')
+else:
+    print('00后')
+循环
+
+a = ['一', '二', '三']
+for k in a:
+    print(k)
+
+一
+二
+三
+range () 函数，可以生成一个整数序列，再通过 list () 函数可以转换为 list。比如 range (5) 生成的序列是从 0 开始小于 5 的整数：
+
+>>> list(range(5))
+[0, 1, 2, 3, 4]
+dict
+Python 内置了字典：dict 全称 dic­tio­nary，具有极快的查找速度。
+举个例子，dict 如下：
+
+>>> d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+>>> d['Michael']
+95
+和 list 比较，dict 有以下几个特点：
+查找和插入的速度极快，不会随着 key 的增加而变慢；(dict 的 key 必须是不可变对象)
+需要占用大量的内存，内存浪费多。
+而 list 相反：
+查找和插入的时间随着元素的增加而增加；
+占用空间小，浪费内存很少。
+
+set
+
+set 和 dict 类似，也是一组 key 的集合，但不存储 value。由于 key 不能重复，所以，在 set 中，没有重复的 key。
+
+函数
+调用函数
+定义函数
+函数的参数
+递归函数
+高级特性
+切片
+迭代
+列表生成式
+生成器
+迭代器
+函数式编程
+高阶函数
+    map/reduce
+    filter
+    sorted
+返回函数
+匿名函数
+装饰器
+偏函数
+模块
+使用模块
+安装第三方模块
+面向对象编程
+类和实例
+访问限制
+继承和多态
+获取对象信息
+实例属性和类属性
+面向对象高级编程
+使用__slots__
+使用@property
+多重继承
+定制类
+使用枚举类
+使用元类
+错误、调试和测试
+错误处理
+调试
+单元测试
+文档测试
+IO编程
+文件读写
+StringIO和BytesIO
+操作文件和目录
+序列化
+进程和线程
+多进程
+多线程
+ThreadLocal
+进程 vs. 线程
+分布式进程
+正则表达式
+常用内建模块
+datetime
+collections
+base64
+struct
+hashlib
+hmac
+itertools
+contextlib
+urllib
+XML
+HTMLParser
+常用第三方模块
+Pillow
+requests
+chardet
+psutil
+virtualenv
+图形界面
+海龟绘图
+网络编程
+TCP/IP简介
+TCP编程
+UDP编程
+电子邮件
+SMTP发送邮件
+POP3收取邮件
+访问数据库
+使用SQLite
+使用MySQL
+使用SQLAlchemy
+Web开发
+HTTP协议简介
+HTML简介
+WSGI接口
+使用Web框架
+使用模板
+异步IO
+协程
+asyncio
+async/await
+aiohttp
+实战
+Day 1 - 搭建开发环境
+Day 2 - 编写Web App骨架
+Day 3 - 编写ORM
+Day 4 - 编写Model
+Day 5 - 编写Web框架
+Day 6 - 编写配置文件
+Day 7 - 编写MVC
+Day 8 - 构建前端
+Day 9 - 编写API
+Day 10 - 用户注册和登录
+Day 11 - 编写日志创建页
+Day 12 - 编写日志列表页
+Day 13 - 提升开发效率
+Day 14 - 完成Web App
+Day 15 - 部署Web App
+Day 16 - 编写移动App
