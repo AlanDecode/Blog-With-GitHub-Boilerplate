@@ -25,7 +25,7 @@ site_build_date = "2019-12-18T16:51+08:00"
 author = "Arley"
 email = "arley@arley.cn"
 author_homepage = "https://www.arley.cn"
-description = "Living without an aim is like sailing without a compass。<br>生活没有目标，犹如航海没有罗盘。"
+description = "<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>"
 key_words = ['Maverick', 'arley', 'Galileo', 'blog']
 language = 'zh-CN'
 background_img = "${static_prefix}bg.png"
