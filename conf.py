@@ -31,9 +31,9 @@ language = 'zh-CN'
 background_img = "${static_prefix}bg.png"
 external_links = [
     {
-        "name": "Arley",
-        "url": "https://www.arley.cn",
-        "brief": "Arley的主页。"
+        "name": "",
+        "url": "",
+        "brief": ""
     }
 ]
 nav = [
