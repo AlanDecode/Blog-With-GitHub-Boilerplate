@@ -32,7 +32,7 @@ background_img = "${static_prefix}bg.png"
 external_links = [
     {
         "name": "Arley公众号",
-        "url": "http://suo.im/69Tgmu",
+        "url": "http://mp.weixin.qq.com/mp/homepage?__biz=MzIzMTU3NTYwMw==&hid=3&sn=d96053e0ee2ce78dfd76f091f0a145f1&scene=18#wechat_redirect",
         "brief": "分享实用干货！"
     }
 ]
