@@ -29,7 +29,13 @@ description = "Living without an aim is like sailing without a compass。<br>生
 key_words = ['Maverick', 'arley', 'Galileo', 'blog']
 language = 'zh-CN'
 background_img = "${static_prefix}bg.png"
-
+external_links = [
+    {
+        "name": "Arley",
+        "url": "https://www.arley.cn",
+        "brief": "Arley的主页。"
+    }
+]
 nav = [
     {
         "name": "首页",
