@@ -73,6 +73,7 @@ head_addon = r'''
 <link rel="shortcut icon" href="${static_prefix}favicon.ico">
 '''
 
-footer_addon = '<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>'
+footer_addon = r'''
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>'''
 
 body_addon = ''
