@@ -10,6 +10,7 @@ categories:
 tags: 
   - theme
 ---
+![bookpic](./images/bookpic.jpg)
 <audio autoplay="autoplay" loop="loop" src="http://m10.music.126.net/20200213141327/43ca7309fd93404d36a0987eb2032b78/ymusic/5f47/b831/ff6e/8dd53acbadf3b2a72652d9eff2cdd8e7.mp3"></audio>
 ## 想读清单
 [links]
