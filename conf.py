@@ -32,7 +32,7 @@ background_img = "${static_prefix}bg.png"
 external_links = [
     {
         "name": "Arley公众号",
-        "url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIzMTU3NTYwMw==&scene=123&uin=NjA3Mzg1ODgx&key=ac35f96b417667e5b347cd2555d13036d5b8597d41321c23cd9710ec3fbd890057239f9d75fe1f22abe4bd7502178132a915189f3bdb955302e95b4134c3881b2a6827946b4143a1bbd2081d7c310ff0&devicetype=Windows+7&version=62080074&lang=zh_CN&a8scene=1&pass_ticket=r%2FJVeu95vpQpCjOB7F6EJYN02iiWmEEMHBBPzuSoye384c1E0iviUJf%2FqadRTHIZ",
+        "url": "http://suo.im/69Tgmu",
         "brief": "分享实用干货！"
     }
 ]
