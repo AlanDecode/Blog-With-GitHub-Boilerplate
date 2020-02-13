@@ -31,9 +31,9 @@ language = 'zh-CN'
 background_img = "${static_prefix}bg.png"
 external_links = [
     {
-        "name": "",
-        "url": "",
-        "brief": ""
+        "name": "Arley公众号",
+        "url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIzMTU3NTYwMw==#wechat_redirect",
+        "brief": "分享实用干货！"
     }
 ]
 nav = [
