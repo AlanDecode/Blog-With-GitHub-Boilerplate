@@ -21,7 +21,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "Arley's Blog"
 site_logo = "${static_prefix}Arley.png"
-site_build_date = "2019-09-09T09:59+09:00"
+site_build_date = "2019-09-09T09:59+08:00"
 author = "Arley"
 email = "arley@arley.cn"
 author_homepage = "https://www.arley.cn"
