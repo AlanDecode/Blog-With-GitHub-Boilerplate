@@ -59,19 +59,6 @@ nav = [
     }
 ]
 
-social_links = [
-    {
-        "name": "Twitter",
-        "url": "https://twitter.com/Leon517693777?s=05",
-        "icon": "gi gi-twitter"
-    },
-    {
-        "name": "GitHub",
-        "url": "https://github.com/Arley517693777",
-        "icon": "gi gi-github"
-    }
-]
-
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
