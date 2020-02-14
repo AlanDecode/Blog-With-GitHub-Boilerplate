@@ -2,7 +2,7 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 
 status: publish
 author: Arley
 categories: 
