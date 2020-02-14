@@ -63,8 +63,9 @@ head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 <link rel="shortcut icon" href="${static_prefix}favicon.ico">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 '''
 
-footer_addon = ''
+footer_addon = '本站总访问量<span id="busuanzi_value_site_pv"></span>次'
 
 body_addon = ''
