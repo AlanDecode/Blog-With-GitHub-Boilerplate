@@ -25,8 +25,6 @@ tags:
 [links]
 [人性的弱点](https://book.douban.com/subject/1056295/)+(https://i0.wp.com/img9.doubanio.com/lpic/s1083685.jpg)
 [你的潜能](https://book.douban.com/subject/3196088/)+(https://i0.wp.com/img3.doubanio.com/lpic/s33314321.jpg)
-[阿Q正传](https://book.douban.com/subject/1088065/)+(https://img3.doubanio.com/view/subject/l/public/s1074811.jpg)
-[厚黑学](https://book.douban.com/subject/1911687/)+(https://img3.doubanio.com/view/subject/l/public/s2180473.jpg)
 [/links]
 
 ## 在读清单
