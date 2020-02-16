@@ -10,7 +10,7 @@ categories:
 tags: 
   - ffmpeg
 ---
-# ffmpeg常用教程
+
 ## 一、安装
 
 **ffmpeg官网：[https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe.com/builds/)** 
