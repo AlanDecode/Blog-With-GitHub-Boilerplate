@@ -28,8 +28,7 @@ author_homepage = ""
 description = "谁家玉笛暗飞声，散入春风满洛城。"
 key_words = ['Maverick', 'PeterFox', 'Galileo', 'blog']
 language = 'zh-CN'
-external_links = [
-]
+# external_links = [{"name": "Maverick","url": "https://github.com/AlanDecode/Maverick","brief": "🏄‍ Go My Own Way."},{}]
 nav = [
     {
         "name": "首页",
