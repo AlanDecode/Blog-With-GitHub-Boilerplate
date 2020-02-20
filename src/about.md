@@ -2,9 +2,9 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 2020/02/20 17:05:00
 status: publish
-author: AlanDecode
+author: PeterFox
 categories: 
   - Maverick
   - Dev
@@ -17,6 +17,4 @@ tags:
 
 ## Contact
 
-Email: hi#imalan.cn (replace # with @)
-
-Telegram：[AlanDecode](https://t.me/alandecode)
+Email: tingbob@hotmail.com
