@@ -15,7 +15,7 @@ template = {
 }
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "sjwayrhz/sjwayrhz.github.io@gh-pages"
+    "repo": "sjwayrhz/Blog-With-GitHub-Boilerplate@gh-pages"
 }
 
 # 站点设置
