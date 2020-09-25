@@ -19,25 +19,25 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "贰次逃亡"
+site_name = "道生一，一生二，二生三，三生万物"
 site_logo = "${static_prefix}logo.png"
-site_build_date = "2019-12-18T16:51+08:00"
-author = "熊猫小A"
-email = "hi@imalan.cn"
-author_homepage = "https://www.imalan.cn"
+site_build_date = "2015-01-10T00:00+08:00"
+author = "Taoist Monk"
+email = "taoistmonk@163.com"
+author_homepage = "https://www.sjhz.tk"
 description = "只坚持一种正义。我的正义。"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+key_words = ['Taoist Monk', 'blog']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
+        "name": "sjwayrhz",
+        "url": "https://github.com/sjwayrhz",
+        "brief": "作者的github空间"
     },
     {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "爱生云鹤",
+        "url": "http://blog.sina.com.cn/u/1242294255",
+        "brief": "爱生云鹤的微博"
     }
 ]
 nav = [
@@ -60,18 +60,18 @@ nav = [
 
 social_links = [
     {
-        "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
-        "icon": "gi gi-twitter"
+        "name": "Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100030415567861",
+        "icon": "gi gi-facebook"
     },
     {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/sjwayrhz",
         "icon": "gi gi-github"
     },
     {
         "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
+        "url": "http://blog.sina.com.cn/u/1242294255",
         "icon": "gi gi-weibo"
     }
 ]
