@@ -26,7 +26,7 @@ author = "waker"
 email = "walkers_xy@163.com"
 author_homepage = "https://www.imalan.cn"
 description = "日常记录"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+key_words = ['Maverick', 'walker', 'Galileo', 'blog']
 language = 'zh-CN'
 external_links = [
     {
@@ -35,9 +35,9 @@ external_links = [
         "brief": "🏄‍ Go My Own Way."
     },
     {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "计划",
+        "url": "https://github.com/wenxinyuan",
+        "brief": "walker的主页。"
     }
 ]
 nav = [
@@ -69,11 +69,7 @@ social_links = [
         "url": "https://github.com/AlanDecode",
         "icon": "gi gi-github"
     },
-    {
-        "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
-        "icon": "gi gi-weibo"
-    }
+    
 ]
 
 head_addon = r'''
